@@ -13,10 +13,10 @@ BeautifulSoup 安装：pip3 install beautifulsoup4
 ```python
 LevelName = ['first','second','three','four','five']
 ```
-后面自定义结果处理方法命名方式为：
-before_user_ + levelName  && result_user_ + levelName
-before方法为自选 请求url之前调用这个方法
-result为必须去实现的方法 请求url之后将url返回的结果传入这个方法
+    后面自定义结果处理方法命名方式为：
+    before_user_ + levelName  && result_user_ + levelName
+    before方法为自选 请求url之前调用这个方法
+    result为必须去实现的方法 请求url之后将url返回的结果传入这个方法
 
 #使用
 ```python

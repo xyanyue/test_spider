@@ -2,24 +2,6 @@ from .pymysqlpool import ConnectionPool
 class MysqlPool:
 
     Config = {
-        "A210": {
-            "pool_name":"a210",
-            "host": "123.56.7.210",
-            "user": "analysis",
-            "password": "j2Gx4amZEQ2o",
-            "database": "analysis",
-            "port": 33071,
-
-        },
-        "Post": {
-            "pool_name":"post",
-            "host": "219.239.89.88",
-            "user": "120ask_read",
-            "password": "FnSKcZfi6Wnj18jRBf",
-            "database": "post",
-            "port": 11113,
-
-        },
         "Local": {
             "pool_name":"local",
             "host": "127.0.0.1",
@@ -28,14 +10,6 @@ class MysqlPool:
             "database": "tag",
             "port": 3306,
 
-        },
-        "Ad":{
-            "pool_name":"ad",
-            "host": "47.93.33.215",
-            "user": "ad_user",
-            "password": "gjasu$%ada",
-            "database": "ad",
-            "port": 3306,
         }
     }
 

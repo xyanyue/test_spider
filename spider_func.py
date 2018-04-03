@@ -3,7 +3,7 @@
 # 
 from conn import mysql_pool 
 import sys
-# import pymysql
+import pymysql
 # import json
 ####test#####
 import spider_tool

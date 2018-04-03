@@ -65,7 +65,7 @@ def insertAllAndUpdate(self,data,where,t_name='test',tableName='haodf_base_hospi
     
 
 
-    where_str = ' and '.join( [ k+"='"+v+"'" for k,v in data.items()])
+    where_str = ' and '.join( [ k+"='"+v+"'" for k,v in where.items()])
 
     sql = "select id from "+tableName+" where "+where_str
     res = m.fetchone(sql,())
